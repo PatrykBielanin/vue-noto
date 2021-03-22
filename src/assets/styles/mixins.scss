@@ -1,0 +1,8 @@
+//Center elements on page - based on flex
+@mixin flexCenter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
