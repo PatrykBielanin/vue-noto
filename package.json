@@ -1,7 +1,7 @@
 {
-  "name": "03",
+  "name": "noto",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A Vue.js application to create notes and todo lists",
   "author": "Patryk Bielanin <patrykbielanin@gmail.com>",
   "private": true,
   "scripts": {
