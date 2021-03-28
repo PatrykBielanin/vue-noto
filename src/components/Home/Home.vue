@@ -5,16 +5,7 @@
                     <div class="contentText col-6">
                         <h2>NOTO</h2>
                         <div class="blackLine mb-2"></div>
-                        <p class="pr-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Neque,
-                            laudantium
-                            distinctio.
-                            Optio
-                            voluptatum
-                            unde cum iusto! Maiores cum necessitatibus facilis itaque eum ex, repudiandae vitae optio,
-                            at
-                            officiis
-                            sit autem.</p>
+                        <p class="pr-5 text-center">NOTO is an Vue.js based simple application which provides creating notes and todo lists. Organize your work by saving things you've done and these which are still up to be done. Create simple note and save your ideas for later!</p>
                     </div>
 
                     <div class="contentImage col-6">

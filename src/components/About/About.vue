@@ -5,15 +5,9 @@
                 <div class="socialMedia mt-2">
                     <i class="bi bi-facebook m-3" style="font-size: 3rem"></i>
                     <i class="bi bi-twitter m-3" style="font-size: 3rem"></i>
-                    <i class="bi bi-github m-3" style="font-size: 3rem"></i>
+                    <a href="https://github.com/PatrykBielanin/vuenetlify" target="_blank"><i class="bi bi-github m-3" style="font-size: 3rem"></i></a>
                 </div>
-                <p class="mt-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Reprehenderit officiis
-                    nostrum laborum, velit nobis et dignissimos! Aspernatur ipsum labore odio assumenda,
-                    consequatur illo ducimus sit laboriosam asperiores totam, nulla magnam.
-                    Quidem perferendis est id at autem natus veniam! Delectus quidem officiis veniam impedit!
-                    Nobis exercitationem deserunt atque, minima qui dolores quae obcaecati ipsam ab dicta ullam
-                    labore quod commodi animi.</p>
+                <p class="mt-3 text-center">Visit our facebook or twitter for the latest news. Don’t forget to check out our GitHub to see the code.</p>
             </div>
         </div>
 </template>
@@ -25,13 +19,6 @@
     .rightSide{
         @include flexCenter();
         margin: auto;
-    }
-
-    .about{
-        @include flexCenter();
-        flex-direction: column;
-        width: 50vw;
-        height: 50vh;
     }
 
     .about{
@@ -50,6 +37,11 @@
             }
         }
 
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
     }
 
     @media (max-width: 993px) {
