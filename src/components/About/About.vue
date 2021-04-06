@@ -14,48 +14,7 @@
 
 <style lang="scss">
     //Mixins
-    @import '../../assets/styles/mixins.scss';
+    @import '../../styles/mixins.scss';
 
-    .rightSide{
-        @include flexCenter();
-        margin: auto;
-    }
-
-    .about{
-        @include flexCenter();
-        margin: auto;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        height: 50vh;
-        width: 60vw;
-
-        .bi{
-            transition: color 0.2s ease-in;
-
-            &:hover{
-            color: rgb(246, 194, 92);
-            }
-        }
-
-    }
-
-    a{
-        text-decoration: none;
-        color: inherit;
-    }
-
-    @media (max-width: 993px) {
-        .about{
-            height: 70vh;
-            width: 90vw;
-        }
-    }
-
-    @media (max-width: 370px) {
-        .about{
-            height: 100vh;
-            width: 90vw;
-        }
-    }
-
+    @import '../../styles/About.scss';
 </style>

@@ -1,0 +1,47 @@
+
+.contentText{
+    @include flexCenter();
+    flex-direction: column;
+    width: 45vw;
+    height: 50vh;
+
+    h2{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+}
+
+.contentImage{
+    width: 35vw;
+    height: 50vh;
+    @include flexCenter();
+
+    img{
+        width: 80%;
+        box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.322);
+    }
+}
+
+.rightSide{
+    @include flexCenter();
+}
+
+.blackLine {
+    width: 20vw;
+    height: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.794);
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.322);
+}
+
+//Tablets and phones
+.contentText-lg{
+    @include flexCenter();
+    flex-direction: column;
+
+    .blackLine{
+        width: 40vw;
+    }
+}

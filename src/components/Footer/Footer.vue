@@ -15,26 +15,6 @@
 </template>
 
 <style lang="scss">
-    //Footer on dekstop
-    .footer {
-        position: fixed;
-        top: 50%;
-        right: -25px;
-        transform: rotate(-90deg);
-
-        p{
-            font-size: 12px;
-            margin-top: 40px;
-            color: rgba(0, 0, 0, 0.5);
-        }
-    }
-
-    //Footer on tablets/phones
-    .footer-lg{
-        position: sticky;
-        height: 50px;
-        bottom: calc( 100vh - 100px );
-    }
-
+    @import '../../styles/Footer.scss';
 
 </style>

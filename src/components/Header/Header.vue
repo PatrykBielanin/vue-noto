@@ -36,34 +36,7 @@
 
 <style lang="scss">
     //Mixins
-    @import '../../assets/styles/mixins.scss';
-    $topMenuColor: rgb(255, 255, 255);
+    @import '../../styles/mixins.scss';
 
-    .header{
-        height: 20vh;
-
-        h1 {
-            font-family: 'Post No Bills Jaffna';
-            font-weight: 800;
-            font-size: 96px;
-            transition: color .5s ease-in;
-        }
-    }
-
-    a{
-        text-decoration: none;
-    }
-
-    // TABLETS/PHONES
-    .topMenu {
-        padding: 20px 0 5px 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        transition: background-color .5s ease-in;
-        @include flexCenter();
-
-        p{
-            font-size: 22px;
-            color: $topMenuColor;
-        }
-    }
+    @import '../../styles/Header.scss';
 </style>
