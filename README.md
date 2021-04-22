@@ -1,21 +1,15 @@
 # vue-noto
 
-> Notes and todo-list app based on Vue.js
+> Notes and todo-list application based on Vue.js
+> 
+Application is based on Vue.js, VueX SCSS and Bootstrap.
 
-## Build Setup
+Demo: http://app.pbielanin.pl/noto/#/
 
-``` bash
-# install dependencies
-npm install
+MIT license
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Screenshots:
+![opera_Cc0bNpVicl](https://user-images.githubusercontent.com/55627799/115793621-bd543380-a3cc-11eb-8e2d-4108ac738c3c.png)
+![opera_5lUs51D5yn](https://user-images.githubusercontent.com/55627799/115793629-c1805100-a3cc-11eb-91df-f345e711226e.png)
+![opera_VuE5WNMmp4](https://user-images.githubusercontent.com/55627799/115793634-c34a1480-a3cc-11eb-8f08-c6f5d5b42bba.png)
+![opera_cACkEW0A0i](https://user-images.githubusercontent.com/55627799/115793639-c47b4180-a3cc-11eb-9b0f-aa6027afb37a.png)
